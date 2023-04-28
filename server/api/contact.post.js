@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer';
 import validator from 'validator';
+
 const config = useRuntimeConfig();
 
 const transporter = nodemailer.createTransport({
@@ -30,11 +31,13 @@ export default defineEventHandler(async (event) => {
 				return Promise.resolve();
 			})
 			.catch((errors) => {
+				console.error(errors)
 				return Promise.reject(errors);
 			});
 
 		return 'Sent!';
 	} catch (error) {
+		console.log('Error:', error)
 		sendError(event, createError({ statusCode: 400, statusMessage: error }));
 	}
 });

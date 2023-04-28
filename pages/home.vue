@@ -129,12 +129,12 @@ const waiting = ref(false);
 
 async function submit(form) {
   waiting.value = true;
-  await $fetch("http://localhost:3000/server/contact.js", {
+  await $fetch("http://localhost:3000/api/contact", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(form),
+    body: form,
   })
     .then(() => {
       errors.value = false;
