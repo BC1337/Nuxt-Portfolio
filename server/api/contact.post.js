@@ -19,7 +19,7 @@ export default defineEventHandler(async (event) => {
 		await isValid(body)
 			.then(async (data) => {
 				const mail = await transporter.sendMail({
-					form: `"${data.name}" <${data.email}>`,
+					from: `"${data.name}" <${data.email}>`,
 					to: config.CONTACTMAIL,
 					subject: data.subject,
 					text: data.message,
@@ -31,7 +31,7 @@ export default defineEventHandler(async (event) => {
 				return Promise.resolve();
 			})
 			.catch((errors) => {
-				console.error(errors)
+				console.error
 				return Promise.reject(errors);
 			});
 
