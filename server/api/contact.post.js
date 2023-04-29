@@ -15,7 +15,8 @@ const transporter = nodemailer.createTransport({
 export default defineEventHandler(async (event) => {
 	try {
 		const body = await readBody(event);
-
+		console.log(body)
+		
 		await isValid(body)
 			.then(async (data) => {
 				const mail = await transporter.sendMail({

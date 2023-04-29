@@ -1,7 +1,7 @@
 <template>
     <Navbar />
     <Home />
-    <!-- <Footer /> -->
+    <Footer />
 </template>
 
 <script setup>

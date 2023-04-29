@@ -7,7 +7,7 @@
 
           <!-- Navbar Links -->
           <div class="flex items-center space-x-4">
-            <!-- <nuxt-link to="#home" class="text-gray-800 hover:text-gray-600">About</nuxt-link> -->
+            <nuxt-link to="#techstack" class="text-gray-800 hover:text-gray-600">Techstack</nuxt-link>
             <nuxt-link to="#projects" class="text-gray-800 hover:text-gray-600">Projects</nuxt-link>
             <nuxt-link to="#contact" class="text-gray-800 hover:text-gray-600">Contact</nuxt-link>
           </div>
