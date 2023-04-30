@@ -4,59 +4,98 @@
   <div class="container mx-auto px-4 py-10">
     <h2 class="text-4xl font-bold text-white-600 text-center">Techstack</h2>
     <div class="flex flex-wrap justify-center mt-20 mb-10 max-w-5xl mx-auto">
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40">
-        <img src="https://img.icons8.com/color/48/000000/typescript.png" alt="TypeScript" class="mx-auto mb-2">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40">
-        <img src="https://img.icons8.com/color/48/000000/vue-js.png" alt="Vuejs" class="mx-auto mb-2">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40 flex justify-center">
-        <img src="../assets/img/nuxtjs.png" alt="Nuxt" class="object-contain mx-auto">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40 flex justify-center">
-       <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" class="object-contain mx-auto h-10 my-auto">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40 flex justify-center">
-       <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express.js" class="object-contain mx-auto h-10 my-auto">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40 flex justify-center">
-        <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" class="object-contain mx-auto h-10 my-auto">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40 flex justify-center">
-        <img src="https://getlogovector.com/wp-content/uploads/2021/01/tailwind-css-logo-vector.png" alt="Tailwind CSS" class="object-contain mx-auto h-10 my-auto">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40 flex justify-center">
-        <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" class="object-contain mx-auto h-10 my-auto">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40 flex justify-center">
-        <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" class="object-contain mx-auto h-10 my-auto">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40 flex justify-center">
-        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" class="object-contain mx-auto h-10 my-auto">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-40 flex justify-center">
-        <img src="https://logowik.com/content/uploads/images/postman-api-platform6643.logowik.com.webp" alt="Postman" class="object-contain mx-auto h-10 my-auto">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
-        <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" class="mx-auto mb-2">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
-        <img src="https://img.icons8.com/color/48/000000/windows-10.png" alt="Windows" class="mx-auto mb-2">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
-        <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VS Code" class="mx-auto mb-2">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
-        <img src="https://img.icons8.com/plasticine/100/000000/react.png" alt="React" class="mx-auto mb-2">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg" alt="Vercel" class="mx-auto mb-2">
-      </div>
-      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
-        <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png" alt="Photoshop" class="mx-auto mb-2">
-      </div>
+ 
+      <TechCard
+        img-src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+        alt-text="TypeScript"
+      />
+
+      <TechCard
+        img-src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
+        alt-text="Vue-Js"
+      />
+
+      <TechCard
+        img-src="https://www.fathym.com/img/nuxt.png"
+        alt-text="Nuxt"
+      />
+
+      <TechCard
+        img-src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+        alt-text="Node.js"
+      />
+
+      <TechCard
+        img-src="https://ih1.redbubble.net/image.438912065.6243/flat,1000x1000,075,f.u3.jpg"
+        alt-text="Express.js"
+      />
+
+      <TechCard
+        img-src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png"
+        alt-text="MongoDB"
+      />
+
+      <TechCard
+        img-src="https://cdn.worldvectorlogo.com/logos/tailwind-css-1-2.svg"
+        alt-text="Tailwind CSS"
+      />
+
+      <TechCard
+        img-src="https://user-images.githubusercontent.com/2327532/39481401-fa7d2992-4d30-11e8-886d-c4a3ee88147f.png"
+        alt-text="Bootstrap"
+      />
+
+      <TechCard
+        img-src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg"
+        alt-text="Git"
+      />
+
+      <TechCard
+        img-src="https://www.oomnitza.com/wp-content/uploads/2022/06/github-logo-300x300.png"
+        alt-text="GitHub"
+      />
+
+      <TechCard
+        img-src="https://logowik.com/content/uploads/images/postman-api-platform6643.logowik.com.webp"
+        alt-text="Postman"
+      />
+
+      <TechCard
+        img-src="https://1000logos.net/wp-content/uploads/2017/03/LINUX-LOGO.png"
+        alt-text="Linux"
+      />
+
+      <TechCard
+        img-src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
+        alt-text="VS Code"
+      />
+
+      <TechCard
+        img-src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+        alt-text="React"
+      />
+
+      <TechCard
+        img-src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg"
+        alt-text="Vercel"
+      />
+
+      <TechCard
+        img-src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"
+        alt-text="Photoshop"
+      />
+
+      
+    
       <!-- outside divs -->
     </div>
   </div>
 </section>
 </template>
+
+
+<script>
+  import TechCard from '../components/TechCard.vue'
+
+  components: { TechCard }
+</script>
