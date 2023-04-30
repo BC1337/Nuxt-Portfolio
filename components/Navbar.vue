@@ -3,7 +3,7 @@
     <div class="bg-gray-100 ">
         <div class="flex justify-between items-center bg-white py-4 px-8">
           <!-- Logo -->
-          <a href="#home" class="text-2xl font-bold text-gray-800">Home</a>
+          <nuxt-link to="#home" class="text-gray-800 text-2xl hover:text-gray-600">Home</nuxt-link>
 
           <!-- Navbar Links -->
           <div class="flex items-center space-x-4">

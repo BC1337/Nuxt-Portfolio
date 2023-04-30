@@ -1,6 +1,6 @@
 <template>
     <!-- Tech Me Section -->
-<section  class="bg-gray-800 text-white py-16 mb-10">
+<section id="techstack" class="bg-gray-800 text-white py-16 mb-10">
   <div class="container mx-auto px-4 py-10">
     <h2 class="text-4xl font-bold text-white-600 text-center">Techstack</h2>
     <div class="flex flex-wrap justify-center mt-20 mb-10 max-w-5xl mx-auto">
@@ -46,7 +46,15 @@
       <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
         <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VS Code" class="mx-auto mb-2">
       </div>
-
+      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
+        <img src="https://img.icons8.com/plasticine/100/000000/react.png" alt="React" class="mx-auto mb-2">
+      </div>
+      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg" alt="Vercel" class="mx-auto mb-2">
+      </div>
+      <div class="bg-white rounded-lg shadow-md px-6 py-4 mx-2 my-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl w-32 flex justify-center">
+        <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png" alt="Photoshop" class="mx-auto mb-2">
+      </div>
       <!-- outside divs -->
     </div>
   </div>
